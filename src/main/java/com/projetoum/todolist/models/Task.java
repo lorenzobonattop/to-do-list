@@ -1,8 +1,7 @@
-package com.projetoum.todolist.entities;
+package com.projetoum.todolist.models;
 
 import jakarta.persistence.*;
 import lombok.*;
-import org.hibernate.annotations.ColumnDefault;
 
 import java.time.LocalDateTime;
 import java.util.Objects;
@@ -13,7 +12,7 @@ import java.util.Objects;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-@Table(name = "task")
+@Table(name = "tb_task")
 public class Task {
 
     @Id
@@ -23,6 +22,8 @@ public class Task {
 
     @Column(columnDefinition = "TEXT")
     private String description;
+
+    @Enumerated(EnumType.STRING)
     private TaskStatus status;
     private String createdBy;
     private LocalDateTime createdAt;

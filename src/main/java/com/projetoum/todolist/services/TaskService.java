@@ -2,11 +2,10 @@ package com.projetoum.todolist.services;
 
 import com.projetoum.todolist.dto.TaskDTO;
 import com.projetoum.todolist.dto.TaskMinDTO;
-import com.projetoum.todolist.entities.Task;
+import com.projetoum.todolist.models.Task;
 import com.projetoum.todolist.repositories.TaskRepository;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.BeanUtils;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

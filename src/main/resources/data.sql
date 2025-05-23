@@ -1,0 +1,4 @@
+INSERT INTO tb_task (title, description, status, created_by, created_at, updated_at) VALUES('Study Spring Boot', 'Study the concepts of dependency injection, JPA and controllers', 'PENDING', 'John', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT INTO tb_task (title, description, status, created_by, created_at, updated_at) VALUES('Create REST API', 'Create the endpoints for the ToDo List project', 'IN_PROGRESS', 'Mary', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT INTO tb_task (title, description, status, created_by, created_at, updated_at) VALUES('Test application', 'Check if the endpoints are working correctly', 'PENDING', 'Charles', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT INTO tb_task (title, description, status, created_by, created_at, updated_at) VALUES('Document project', 'Create documentation using Swagger', 'DONE', 'Anna', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);

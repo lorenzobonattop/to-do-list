@@ -1,10 +1,9 @@
 package com.projetoum.todolist.dto;
 
-import com.projetoum.todolist.entities.Task;
-import com.projetoum.todolist.entities.TaskStatus;
+import com.projetoum.todolist.models.Task;
+import com.projetoum.todolist.models.TaskStatus;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 import java.time.LocalDateTime;
 

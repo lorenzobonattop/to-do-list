@@ -1,4 +1,4 @@
-package com.projetoum.todolist.entities;
+package com.projetoum.todolist.models;
 
 public enum TaskStatus {
     COMPLETED,
